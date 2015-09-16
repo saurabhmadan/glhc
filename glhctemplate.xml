@@ -1769,6 +1769,12 @@ background: url(http://reportage.wp-theme.pro/wp-content/themes/reportage/images
 a.soc-follow.twitter:hover {
 background-color: #48c4d2;
 }
+a.soc-follow.youtube {
+background: url(http://reportage.wp-theme.pro/wp-content/themes/reportage/images/social/youtube.png) no-repeat 0 0;
+}
+a.soc-follow.youtube:hover {
+background-color: #d94a39;
+}
 a.soc-follow.vimeo {
 background: url(http://reportage.wp-theme.pro/wp-content/themes/reportage/images/social/vimeo.png) no-repeat 0 0;
 }
@@ -2920,17 +2926,17 @@ head.appendChild(script);
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href="https://www.blogger.com/profile/13446829432676905151">
                 About
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href="mailto:saurabh.madan@gmail.com?Subject=Loved%20Your%20Site" target="_blank">
                 Contact
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href="http://www.glhc.in/">
                 Error Page
               </a>
             </li>
@@ -2938,27 +2944,21 @@ head.appendChild(script);
           <!-- primary navigation menu end -->
           <!-- social media button start -->
           <ul class='socialbar'>
-            <li>
+            <!--li>
               <a class='soc-follow facebook' href='#' title='facebook'/>
-            </li>
+            </li-->
             <li>
               <a class='soc-follow twitter' href='https://twitter.com/sjmadan' title='twitter'/>
             </li>
+            <!--li><a class='soc-follow vimeo' href='#' title='vimeo'/></li-->
+            <!--li><a class='soc-follow flickrs' href='#' title='flickr'/></li-->
+            <!--li><a class='soc-follow dribbble' href='#' title='dribbble'/></li-->
+            <!--li><a class='soc-follow linkedin' href='#' title='linkedin'/></li-->
+            <!--li><a class='soc-follow googleplus' href='#' title='google plus'/></li-->
             <li>
-              <a class='soc-follow vimeo' href='#' title='vimeo'/>
+              <a class='soc-follow youtube' href='#' title='youtube'/>
             </li>
-            <li>
-              <a class='soc-follow flickrs' href='#' title='flickr'/>
-            </li>
-            <li>
-              <a class='soc-follow dribbble' href='#' title='dribbble'/>
-            </li>
-            <li>
-              <a class='soc-follow linkedin' href='#' title='linkedin'/>
-            </li>
-            <li>
-              <a class='soc-follow googleplus' href='#' title='google plus'/>
-            </li>
+
           </ul>
           <!-- social media button end -->
         </nav>
