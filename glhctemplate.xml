@@ -2947,7 +2947,7 @@ head.appendChild(script);
             <li>
               <a class='soc-follow youtube' href="https://www.youtube.com/user/SaurabhJagdishMadan/videos" target="_blank" title='youtube'/>
             </li>
-            <li><a class='soc-follow twitter' href='https://twitter.com/sjmadan' title='twitter'/></li>
+            <li><a class='soc-follow twitter' href='https://twitter.com/sjmadan' target ="_blank" title='twitter'/></li>
             <li><a class='soc-follow facebook' href="https://www.facebook.com/groups/477733348911404/" target="_blank" title='facebook'/></li>
             <!--li><a class='soc-follow vimeo' href='#' title='vimeo'/></li-->
             <!--li><a class='soc-follow flickrs' href='#' title='flickr'/></li-->
