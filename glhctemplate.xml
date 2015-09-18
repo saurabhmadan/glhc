@@ -2926,17 +2926,17 @@ head.appendChild(script);
               </a>
             </li>
             <li>
-              <a href="https://www.blogger.com/profile/13446829432676905151">
+              <a href='http://www.glhc.in/2015/09/about-golden-light.html'>
                 About
               </a>
             </li>
             <li>
-              <a href="mailto:saurabh.madan@gmail.com?Subject=Loved%20Your%20Site" target="_blank">
+              <a href='mailto:saurabh.madan@gmail.com?Subject=Loved%20Your%20Site' target='_blank'>
                 Contact
               </a>
             </li>
             <li>
-              <a href="http://www.glhc.in/">
+              <a href='http://www.glhc.in/'>
                 Error Page
               </a>
             </li>
@@ -2945,10 +2945,10 @@ head.appendChild(script);
           <!-- social media button start -->
           <ul class='socialbar'>
             <li>
-              <a class='soc-follow youtube' href="https://www.youtube.com/user/SaurabhJagdishMadan/videos" target="_blank" title='youtube'/>
+              <a class='soc-follow youtube' href='https://www.youtube.com/user/SaurabhJagdishMadan/videos' target='_blank' title='youtube'/>
             </li>
-            <li><a class='soc-follow twitter' href='https://twitter.com/sjmadan' target ="_blank" title='twitter'/></li>
-            <li><a class='soc-follow facebook' href="https://www.facebook.com/groups/477733348911404/" target="_blank" title='facebook'/></li>
+            <li><a class='soc-follow twitter' href='https://twitter.com/sjmadan' target='_blank' title='twitter'/></li>
+            <li><a class='soc-follow facebook' href='https://www.facebook.com/groups/477733348911404/' target='_blank' title='facebook'/></li>
             <!--li><a class='soc-follow vimeo' href='#' title='vimeo'/></li-->
             <!--li><a class='soc-follow flickrs' href='#' title='flickr'/></li-->
             <!--li><a class='soc-follow dribbble' href='#' title='dribbble'/></li-->
@@ -3039,7 +3039,7 @@ user is not using shrink to fit then we expand the header.
           </b:widget>
         </b:section>
         <b:section class='header-right section' id='header-right' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='HTML7' locked='false' title='' type='HTML'>
+          <b:widget id='HTML7' locked='false' title='Golden Light Healing Center' type='HTML'>
             <b:includable id='main'>
               <!-- only display title if it's non-empty -->
               <b:if cond='data:title != &quot;&quot;'>
@@ -3069,39 +3069,44 @@ user is not using shrink to fit then we expand the header.
           </li>
           <li>
             <a href='#'>
-              Safety
+              A Foundation for Life
             </a>
             <ul>
               <li>
                 <a href='#'>
-                  Physical
+                  Body
                 </a>
               </li>
               <li>
                 <a href='#'>
-                  Shelter
+                  Home
                 </a>
               </li>
               <li>
                 <a href='#'>
-                  Financial
+                  Money
                 </a>
               </li>
             </ul>
           </li>
           <li>
             <a href='#'>
-              Creativity
+              A Dream
             </a>
             <ul>
               <li>
                 <a href='#'>
-                  Like Children
+                  Something from Nothing
                 </a>
               </li>
               <li>
                 <a href='#'>
-                  Sexuality
+                  Fundamentals of Desire
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  Career
                 </a>
               </li>
             </ul>
@@ -3118,7 +3123,7 @@ user is not using shrink to fit then we expand the header.
           </li>
           <li>
             <a href='#'>
-                 I   
+              Truth 
             </a>
           </li>
           <li>
@@ -3215,97 +3220,6 @@ user is not using shrink to fit then we expand the header.
                     </b:if>
                     <b:include name='quickedit'/>
                   </div>
-                </b:includable>
-              </b:widget>
-              <b:widget id='BlogArchive2' locked='false' title='Blog Archive' type='BlogArchive'>
-                <b:includable id='main'>
-                  <b:if cond='data:title != &quot;&quot;'>
-                    <h2>
-                      <data:title/>
-                    </h2>
-                  </b:if>
-                  <div class='widget-content'>
-                    <div id='ArchiveList'>
-                      <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-                        <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-                        <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-                        <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-                      </div>
-                    </div>
-                    <b:include name='quickedit'/>
-                  </div>
-                </b:includable>
-                <b:includable id='flat' var='data'>
-                  <ul class='flat'>
-                    <b:loop values='data:data' var='i'>
-                      <li class='archivedate'>
-                        <a expr:href='data:i.url'>
-                          <data:i.name/>
-                        </a>
-                        (
-                        <data:i.post-count/>
-                        )
-                      </li>
-                    </b:loop>
-                  </ul>
-                </b:includable>
-                <b:includable id='interval' var='intervalData'>
-                  <b:loop values='data:intervalData' var='interval'>
-                    <ul class='hierarchy'>
-                      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-                        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-                        <a class='post-count-link' expr:href='data:interval.url'>
-                          <data:interval.name/>
-                        </a>
-                        <span class='post-count' dir='ltr'>
-                          (
-                          <data:interval.post-count/>
-                          )
-                        </span>
-                        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-                        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-                      </li>
-                    </ul>
-                  </b:loop>
-                </b:includable>
-                <b:includable id='menu' var='data'>
-                  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-                    <option value=''>
-                      <data:title/>
-                    </option>
-                    <b:loop values='data:data' var='i'>
-                      <option expr:value='data:i.url'>
-                        <data:i.name/>
-                        (
-                        <data:i.post-count/>
-                        )
-                      </option>
-                    </b:loop>
-                  </select>
-                </b:includable>
-                <b:includable id='posts' var='posts'>
-                  <ul class='posts'>
-                    <b:loop values='data:posts' var='post'>
-                      <li>
-                        <a expr:href='data:post.url'>
-                          <data:post.title/>
-                        </a>
-                      </li>
-                    </b:loop>
-                  </ul>
-                </b:includable>
-                <b:includable id='toggle' var='interval'>
-                  <a class='toggle' href='javascript:void(0)'>
-                    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-                      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-                        &#9660;&#160;
-                        <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-                        &#9668;&#160;
-                        <b:else/>
-                        &#9658;&#160;
-                      </b:if>
-                    </span>
-                  </a>
                 </b:includable>
               </b:widget>
               <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
@@ -5267,62 +5181,74 @@ user is not using shrink to fit then we expand the header.
               </div>
               <div class='widget1 tagcloud' id='tab3'>
                 <b:section class='sidebar' id='tab3-comments' showaddelement='yes'>
-                  <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+                  <b:widget id='BlogArchive1' locked='false' title='Recent Posts' type='BlogArchive'>
                     <b:includable id='main'>
-                      <b:if cond='data:title'>
-                        <h2>
-                          <data:title/>
-                        </h2>
-                      </b:if>
-                      <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-                        <b:if cond='data:display == &quot;list&quot;'>
-                          <ul>
-                            <b:loop values='data:labels' var='label'>
-                              <li>
-                                <b:if cond='data:blog.url == data:label.url'>
-                                  <span expr:dir='data:blog.languageDirection'>
-                                    <data:label.name/>
-                                  </span>
-                                  <b:else/>
-                                  <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'>
-                                    <data:label.name/>
-                                  </a>
-                                </b:if>
-                                <b:if cond='data:showFreqNumbers'>
-                                  <span dir='ltr'>
-                                    (
-                                    <data:label.count/>
-                                    )
-                                  </span>
-                                </b:if>
-                              </li>
-                            </b:loop>
-                          </ul>
-                          <b:else/>
-                          <b:loop values='data:labels' var='label'>
-                            <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-                              <b:if cond='data:blog.url == data:label.url'>
-                                <span expr:dir='data:blog.languageDirection'>
-                                  <data:label.name/>
-                                </span>
-                                <b:else/>
-                                <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'>
-                                  <data:label.name/>
-                                </a>
-                              </b:if>
-                              <b:if cond='data:showFreqNumbers'>
-                                <span class='label-count' dir='ltr'>
-                                  (
-                                  <data:label.count/>
-                                  )
-                                </span>
-                              </b:if>
-                            </span>
-                          </b:loop>
-                        </b:if>
-                        <b:include name='quickedit'/>
-                      </div>
-                    </b:includable>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+                    <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+                    <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+                    <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+                    <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+                    <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
                   </b:widget>
                 </b:section>
               </div>
