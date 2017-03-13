@@ -2878,7 +2878,7 @@ width:205px; height:auto; min-height:120px;
       //]]>
     </script>
     <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
-      <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
+      <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar' version='1'>
         <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -2892,16 +2892,16 @@ width:205px; height:auto; min-height:120px;
 &lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-        gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-          if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-            gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\0753818812475610776471\46blogName\75Golden+Light+Healing+Center\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://www.glhc.in/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.glhc.in/\46vt\75-6350986334882636530&#39;,
-                where: document.getElementById(&quot;navbar-iframe-container&quot;),
-                id: &quot;navbar-iframe&quot;
-            });
-          }
-        });
-      &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d3818812475610776471\x26blogName\x3dGolden+Light+Healing+Center\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.thelightinside.in/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://www.thelightinside.in/\x26vt\x3d5684622512903320604&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
 (function() {
 var script = document.createElement(&#39;script&#39;);
 script.type = &#39;text/javascript&#39;;
@@ -2936,8 +2936,8 @@ head.appendChild(script);
               </a>
             </li>
             <li>
-              <a href='http://www.glhc.in/'>
-                Error Page
+              <a href='/p/meditation.html'>
+                 Meditation
               </a>
             </li>
           </ul>
@@ -2963,7 +2963,7 @@ head.appendChild(script);
       <!-- header wrapper start -->
       <header id='header-wrapper'>
         <b:section class='header section' id='header' showaddelement='no'>
-          <b:widget id='Header1' locked='false' title='Golden Light Healing Center (Header)' type='Header'>
+          <b:widget id='Header1' locked='false' title='Golden Light Healing Center (Header)' type='Header' version='1'>
             <b:includable id='main'>
               <b:if cond='data:useImage'>
                 <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
@@ -3038,22 +3038,7 @@ user is not using shrink to fit then we expand the header.
             </b:includable>
           </b:widget>
         </b:section>
-        <b:section class='header-right section' id='header-right' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='HTML7' locked='false' title='Golden Light Healing Center' type='HTML'>
-            <b:includable id='main'>
-              <!-- only display title if it's non-empty -->
-              <b:if cond='data:title != &quot;&quot;'>
-                <h2 class='title'>
-                  <data:title/>
-                </h2>
-              </b:if>
-              <div class='widget-content'>
-                <data:content/>
-              </div>
-              <b:include name='quickedit'/>
-            </b:includable>
-          </b:widget>
-        </b:section>
+        <b:section class='header-right section' id='header-right' maxwidgets='1' showaddelement='yes'/>
       </header>
       <!-- header wrapper end -->
       <nav id='nav'>
@@ -3068,32 +3053,15 @@ user is not using shrink to fit then we expand the header.
             </a>
           </li>
           <li>
-            <a href='#'>
-              A Foundation for Life
+            <a href='/p/meditation.html'>
+                 Meditation
             </a>
-            <ul>
-              <li>
-                <a href='#'>
-                  Body
-                </a>
-              </li>
-              <li>
-                <a href='#'>
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href='#'>
-                  Money
-                </a>
-              </li>
-            </ul>
           </li>
           <li>
-            <a href='#'>
-              A Dream
+            <a href='/p/40-day-path-to-prosperity.html'>
+              Prosperity
             </a>
-            <ul>
+            <!--ul>
               <li>
                 <a href='#'>
                   Something from Nothing
@@ -3109,32 +3077,45 @@ user is not using shrink to fit then we expand the header.
                   Career
                 </a>
               </li>
-            </ul>
+            </ul-->
           </li>
           <li>
-            <a href='#'>
-              Power
+            <a href='/p/sacred-relationships.html'>
+                 Relationships
             </a>
           </li>
           <li>
-            <a href='#'>
-              Compassion
+            <a href='/p/soul-coaches.html'>
+              Self-Study
             </a>
           </li>
           <li>
-            <a href='#'>
-              Truth 
+            <a href='/p/testimonials.html'>
+              Testimonials
             </a>
           </li>
           <li>
-            <a href='#'>
-                 Insight   
+            <a href='/p/healing-sessions.html'>
+              Healing Sessions
             </a>
-          </li>
-          <li>
-            <a href='#'>
-                 Spirituality
-            </a>
+            <!-- Closing tabs until we have them -->
+            <!--ul>
+              <li>
+                <a href='#'>
+                  Body
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  Money
+                </a>
+              </li>
+            </ul-->
           </li>
         </ul>
         <div id='searchformfix'>
@@ -3151,7 +3132,7 @@ user is not using shrink to fit then we expand the header.
         <div id='mywrapper'>
           <div id='sidebar-narrow' style='width:100%;max-width:160px;float:left;'>
             <b:section class='sidebar' id='sidebar-lab' preferred='yes'>
-              <b:widget id='HTML8' locked='false' title='Sponsor' type='HTML'>
+              <b:widget id='HTML8' locked='false' title='' type='HTML' version='1'>
                 <b:includable id='main'>
                   <!-- only display title if it's non-empty -->
                   <b:if cond='data:title != &quot;&quot;'>
@@ -3165,7 +3146,7 @@ user is not using shrink to fit then we expand the header.
                   <b:include name='quickedit'/>
                 </b:includable>
               </b:widget>
-              <b:widget id='Label7' locked='false' title='Labels' type='Label'>
+              <b:widget id='Label7' locked='false' title='' type='Label' version='1'>
                 <b:includable id='main'>
                   <b:if cond='data:title'>
                     <h2>
@@ -3224,12 +3205,6 @@ user is not using shrink to fit then we expand the header.
               </b:widget>
               <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
                 <b:includable id='main'>
-    <b:if cond='data:feedbackSurveyLink'>
-      <div class='mobile-survey-link' style='text-align: center;'>
-        <data:feedbackSurveyLink/>
-      </div>
-    </b:if>
-
     <div class='widget-content' style='text-align: center;'>
       <b:if cond='data:attribution != &quot;&quot;'>
        <data:attribution/>
@@ -3239,7 +3214,7 @@ user is not using shrink to fit then we expand the header.
     <b:include name='quickedit'/>
   </b:includable>
               </b:widget>
-              <b:widget id='LinkList1' locked='false' title='Navigation' type='LinkList'>
+              <b:widget id='LinkList1' locked='false' title='Navigation' type='LinkList' version='1'>
                 <b:includable id='main'>
                   <b:if cond='data:title != &quot;&quot;'>
                     <h2>
@@ -3260,38 +3235,7 @@ user is not using shrink to fit then we expand the header.
                   </div>
                 </b:includable>
               </b:widget>
-              <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-                <b:includable id='main'>
-                  <div class='widget-content'>
-                    <b:if cond='!data:blog.disableAdSenseWidget'>
-                      <data:adCode/>
-                    </b:if>
-                    <b:include name='quickedit'/>
-                  </div>
-                </b:includable>
-              </b:widget>
-              <b:widget id='LinkList7' locked='false' title='Edit This Menu' type='LinkList'>
-                <b:includable id='main'>
-                  <b:if cond='data:title != &quot;&quot;'>
-                    <h2>
-                      <data:title/>
-                    </h2>
-                  </b:if>
-                  <div class='widget-content'>
-                    <ul>
-                      <b:loop values='data:links' var='link'>
-                        <li>
-                          <a expr:href='data:link.target'>
-                            <data:link.name/>
-                          </a>
-                        </li>
-                      </b:loop>
-                    </ul>
-                    <b:include name='quickedit'/>
-                  </div>
-                </b:includable>
-              </b:widget>
-              <b:widget id='Profile1' locked='false' title='About Saurabh' type='Profile'>
+              <b:widget id='Profile1' locked='false' title='About Saurabh' type='Profile' version='1'>
                 <b:includable id='main'>
                   <b:if cond='data:title != &quot;&quot;'>
                     <h2>
@@ -3346,7 +3290,7 @@ user is not using shrink to fit then we expand the header.
                   </div>
                 </b:includable>
               </b:widget>
-              <b:widget id='Feed1' locked='false' title='Blogger Templates' type='Feed'>
+              <b:widget id='Feed1' locked='false' title='Blogger Templates' type='Feed' version='1'>
                 <b:includable id='main'>
 <h2>
   <data:title/>
@@ -3361,7 +3305,7 @@ user is not using shrink to fit then we expand the header.
                   <b:include name='quickedit'/>
                 </b:includable>
               </b:widget>
-              <b:widget id='Feed2' locked='false' title='Blog and Web' type='Feed'>
+              <b:widget id='Feed2' locked='false' title='Blog and Web' type='Feed' version='1'>
                 <b:includable id='main'>
                   <h2>
                     <data:title/>
@@ -3383,7 +3327,7 @@ user is not using shrink to fit then we expand the header.
             <b:if cond='data:blog.url == data:blog.homepageUrl'>
               <div class='clearfix' id='featured'>
                 <b:section id='slider1' showaddelement='no'>
-                  <b:widget id='HTML26' locked='false' mobile='yes' title='Looped Slider' type='HTML'>
+                  <b:widget id='HTML26' locked='false' mobile='yes' title='Looped Slider' type='HTML' version='1'>
                     <b:includable id='main'>
                       <div class='sliderwrapper'>
                         <script>
@@ -3404,7 +3348,7 @@ user is not using shrink to fit then we expand the header.
             <div class='post-container'>
               <b:if cond='data:blog.url == data:blog.homepageUrl'>
                 <b:section class='stylebox1 section' id='stylebox-1' showaddelement='yes'>
-                  <b:widget id='HTML1' locked='true' title='Abundance' type='HTML'>
+                  <b:widget id='HTML1' locked='true' title='Home' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3426,7 +3370,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox section' id='stylebox-2' showaddelement='yes'>
-                  <b:widget id='HTML2' locked='false' title='Games' type='HTML'>
+                  <b:widget id='HTML2' locked='false' title='Games' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3448,7 +3392,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox section' id='stylebox-3' showaddelement='yes'>
-                  <b:widget id='HTML3' locked='false' title='Fashion' type='HTML'>
+                  <b:widget id='HTML3' locked='false' title='Fashion' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3470,7 +3414,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox1' id='stylebox-16' maxwidgets='2' showaddelement='yes'>
-                  <b:widget id='HTML39' locked='true' title='Gagdet' type='HTML'>
+                  <b:widget id='HTML39' locked='true' title='Gagdet' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3492,7 +3436,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox1 section' id='stylebox-4' showaddelement='yes'>
-                  <b:widget id='HTML4' locked='false' title='Technology' type='HTML'>
+                  <b:widget id='HTML4' locked='false' title='Technology' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3514,7 +3458,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox section' id='stylebox-5' showaddelement='yes'>
-                  <b:widget id='HTML5' locked='false' title='Sports' type='HTML'>
+                  <b:widget id='HTML5' locked='false' title='Sports' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3536,7 +3480,7 @@ user is not using shrink to fit then we expand the header.
                   </b:widget>
                 </b:section>
                 <b:section class='stylebox section' id='stylebox-6' showaddelement='yes'>
-                  <b:widget id='HTML6' locked='false' title='Gallery' type='HTML'>
+                  <b:widget id='HTML6' locked='false' title='Gallery' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -3561,7 +3505,7 @@ user is not using shrink to fit then we expand the header.
               <div class='clear'/>
               <div id='singlepage'>
                 <b:section class='main' id='main' showaddelement='no'>
-                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
                     <b:includable id='main' var='top'>
                       <b:include data='posts' name='breadcrumb'/>
                       <b:if cond='data:mobile == &quot;false&quot;'>
@@ -5076,7 +5020,7 @@ user is not using shrink to fit then we expand the header.
               </div>
               <div class='widget1' id='tab1'>
                 <b:section class='sidebar' id='tab1-popular-posts' showaddelement='yes'>
-                  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+                  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
                     <b:includable id='main'>
                       <b:if cond='data:title'>
                         <h2>
@@ -5163,7 +5107,7 @@ user is not using shrink to fit then we expand the header.
               </div>
               <div class='widget1' id='tab2'>
                 <b:section class='sidebar' id='tab2-recent-posts' showaddelement='yes'>
-                  <b:widget id='HTML19' locked='false' title='Video Of Day' type='HTML'>
+                  <b:widget id='HTML19' locked='false' title='Video Of Day' type='HTML' version='1'>
                     <b:includable id='main'>
                       <!-- only display title if it's non-empty -->
                       <b:if cond='data:title != &quot;&quot;'>
@@ -5250,6 +5194,63 @@ user is not using shrink to fit then we expand the header.
   </a>
 </b:includable>
                   </b:widget>
+                  <b:widget id='Label1' locked='false' title='Labels' type='Label' version='1'>
+                    <b:includable id='main'>
+                      <b:if cond='data:title'>
+                        <h2>
+                          <data:title/>
+                        </h2>
+                      </b:if>
+                      <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+                        <b:if cond='data:display == &quot;list&quot;'>
+                          <ul>
+                            <b:loop values='data:labels' var='label'>
+                              <li>
+                                <b:if cond='data:blog.url == data:label.url'>
+                                  <span expr:dir='data:blog.languageDirection'>
+                                    <data:label.name/>
+                                  </span>
+                                  <b:else/>
+                                  <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'>
+                                    <data:label.name/>
+                                  </a>
+                                </b:if>
+                                <b:if cond='data:showFreqNumbers'>
+                                  <span dir='ltr'>
+                                    (
+                                    <data:label.count/>
+                                    )
+                                  </span>
+                                </b:if>
+                              </li>
+                            </b:loop>
+                          </ul>
+                          <b:else/>
+                          <b:loop values='data:labels' var='label'>
+                            <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+                              <b:if cond='data:blog.url == data:label.url'>
+                                <span expr:dir='data:blog.languageDirection'>
+                                  <data:label.name/>
+                                </span>
+                                <b:else/>
+                                <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'>
+                                  <data:label.name/>
+                                </a>
+                              </b:if>
+                              <b:if cond='data:showFreqNumbers'>
+                                <span class='label-count' dir='ltr'>
+                                  (
+                                  <data:label.count/>
+                                  )
+                                </span>
+                              </b:if>
+                            </span>
+                          </b:loop>
+                        </b:if>
+                        <b:include name='quickedit'/>
+                      </div>
+                    </b:includable>
+                  </b:widget>
                 </b:section>
               </div>
             </div>
@@ -5273,7 +5274,7 @@ user is not using shrink to fit then we expand the header.
           </div>
           <div class='clear'/>
           <b:section class='sidebar section' id='sidebar' preferred='yes'>
-            <b:widget id='HTML13' locked='false' title='Featured Video' type='HTML'>
+            <b:widget id='HTML13' locked='false' title='Featured Video' type='HTML' version='1'>
               <b:includable id='main'>
                 <!-- only display title if it's non-empty -->
                 <b:if cond='data:title != &quot;&quot;'>
@@ -5287,7 +5288,7 @@ user is not using shrink to fit then we expand the header.
                 <b:include name='quickedit'/>
               </b:includable>
             </b:widget>
-            <b:widget id='HTML11' locked='false' title='Advertisement' type='HTML'>
+            <b:widget id='HTML11' locked='false' title='Advertisement' type='HTML' version='1'>
               <b:includable id='main'>
                 <!-- only display title if it's non-empty -->
                 <b:if cond='data:title != &quot;&quot;'>
@@ -5301,7 +5302,7 @@ user is not using shrink to fit then we expand the header.
                 <b:include name='quickedit'/>
               </b:includable>
             </b:widget>
-            <b:widget id='HTML10' locked='false' title='Find Us On Facebook' type='HTML'>
+            <b:widget id='HTML10' locked='false' title='Find Us On Facebook' type='HTML' version='1'>
               <b:includable id='main'>
                 <!-- only display title if it's non-empty -->
                 <b:if cond='data:title != &quot;&quot;'>
@@ -5324,7 +5325,7 @@ user is not using shrink to fit then we expand the header.
     <div class='clear'/>
     <aside id='bottombar'>
       <b:section class='left section' id='left' preferred='yes'>
-        <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts'>
+        <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
           <b:includable id='main'>
             <b:if cond='data:title'>
               <h2>
@@ -5401,7 +5402,7 @@ user is not using shrink to fit then we expand the header.
         </b:widget>
       </b:section>
       <b:section class='center section tagcloud1' id='center' preferred='yes'>
-        <b:widget id='Label2' locked='false' title='Labels' type='Label'>
+        <b:widget id='Label2' locked='false' title='Labels' type='Label' version='1'>
           <b:includable id='main'>
             <b:if cond='data:title'>
               <h2>
@@ -5460,7 +5461,7 @@ user is not using shrink to fit then we expand the header.
         </b:widget>
       </b:section>
       <b:section class='right section' id='right' preferred='yes'>
-        <b:widget id='HTML12' locked='false' title='Featured Video' type='HTML'>
+        <b:widget id='HTML12' locked='false' title='Featured Video' type='HTML' version='1'>
           <b:includable id='main'>
             <!-- only display title if it's non-empty -->
             <b:if cond='data:title != &quot;&quot;'>
